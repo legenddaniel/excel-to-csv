@@ -1,0 +1,14 @@
+{
+  "name": "excel-to-csv",
+  "version": "1.0.0",
+  "description": "excel to csv for upload",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "legenddaniel",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.16.9"
+  }
+}
