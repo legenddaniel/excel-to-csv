@@ -1,0 +1,1298 @@
+{
+    "Directory": {
+        "workbooks": [
+            "/xl/workbook.xml"
+        ],
+        "sheets": [
+            "/xl/worksheets/sheet1.xml"
+        ],
+        "charts": [],
+        "dialogs": [],
+        "macros": [],
+        "rels": [],
+        "strs": [
+            "/xl/sharedStrings.xml"
+        ],
+        "comments": [],
+        "links": [],
+        "coreprops": [
+            "/docProps/core.xml"
+        ],
+        "extprops": [
+            "/docProps/app.xml"
+        ],
+        "custprops": [],
+        "themes": [
+            "/xl/theme/theme1.xml"
+        ],
+        "styles": [
+            "/xl/styles.xml"
+        ],
+        "vba": [],
+        "drawings": [],
+        "TODO": [],
+        "xmlns": "http://schemas.openxmlformats.org/package/2006/content-types",
+        "calcchain": "",
+        "sst": "/xl/sharedStrings.xml",
+        "style": "/xl/styles.xml",
+        "defaults": {
+            "rels": "application/vnd.openxmlformats-package.relationships+xml",
+            "xml": "application/xml"
+        }
+    },
+    "Workbook": {
+        "AppVersion": {
+            "appName": "xl",
+            "appname": "xl",
+            "lastEdited": "6",
+            "lastedited": "6",
+            "lowestEdited": "4",
+            "lowestedited": "4",
+            "rupBuild": "14420",
+            "rupbuild": "14420"
+        },
+        "WBProps": {
+            "defaultThemeVersion": 124226,
+            "allowRefreshQuery": false,
+            "autoCompressPictures": true,
+            "backupFile": false,
+            "checkCompatibility": false,
+            "CodeName": "",
+            "date1904": false,
+            "filterPrivacy": false,
+            "hidePivotFieldList": false,
+            "promptedSolutions": false,
+            "publishItems": false,
+            "refreshAllConnections": false,
+            "saveExternalLinkValues": true,
+            "showBorderUnselectedTables": true,
+            "showInkAnnotation": true,
+            "showObjects": "all",
+            "showPivotChartFilter": false,
+            "updateLinks": "userSet"
+        },
+        "WBView": [
+            {
+                "xWindow": "0",
+                "xwindow": "0",
+                "yWindow": "0",
+                "ywindow": "0",
+                "windowWidth": "23040",
+                "windowwidth": "23040",
+                "windowHeight": "9144",
+                "windowheight": "9144",
+                "activeTab": 0,
+                "autoFilterDateGrouping": true,
+                "firstSheet": 0,
+                "minimized": false,
+                "showHorizontalScroll": true,
+                "showSheetTabs": true,
+                "showVerticalScroll": true,
+                "tabRatio": 600,
+                "visibility": "visible"
+            }
+        ],
+        "Sheets": [
+            {
+                "name": "Sheet1",
+                "sheetId": "1",
+                "sheetid": "1",
+                "id": "rId1",
+                "Hidden": 0
+            }
+        ],
+        "CalcPr": {
+            "calcId": "124519",
+            "calcid": "124519",
+            "calcCompleted": "true",
+            "calcMode": "auto",
+            "calcOnSave": "true",
+            "concurrentCalc": "true",
+            "fullCalcOnLoad": "false",
+            "fullPrecision": "true",
+            "iterate": "false",
+            "iterateCount": "100",
+            "iterateDelta": "0.001",
+            "refMode": "A1"
+        },
+        "Names": [],
+        "xmlns": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
+        "Views": [
+            {}
+        ]
+    },
+    "Props": {
+        "LastAuthor": "Daniel",
+        "Author": "Flora Ip",
+        "CreatedDate": "2020-11-10T17:56:07.000Z",
+        "ModifiedDate": "2020-12-25T01:58:44.000Z",
+        "Application": "Microsoft Excel",
+        "AppVersion": "16.0300",
+        "DocSecurity": "0",
+        "HyperlinksChanged": false,
+        "SharedDoc": false,
+        "LinksUpToDate": false,
+        "ScaleCrop": false,
+        "Worksheets": 1,
+        "SheetNames": [
+            "Sheet1"
+        ]
+    },
+    "Custprops": {},
+    "Deps": {},
+    "Sheets": {
+        "Sheet1": {
+            "!ref": "A1:Q6",
+            "A1": {
+                "t": "s",
+                "v": "Name(required)",
+                "r": "<t>Name(required)</t>",
+                "h": "Name(required)",
+                "w": "Name(required)"
+            },
+            "B1": {
+                "t": "s",
+                "v": "Chinese name",
+                "r": "<t>Chinese name</t>",
+                "h": "Chinese name",
+                "w": "Chinese name"
+            },
+            "C1": {
+                "t": "s",
+                "v": "Sub Dept Name",
+                "r": "<t>Sub Dept Name</t>",
+                "h": "Sub Dept Name",
+                "w": "Sub Dept Name"
+            },
+            "D1": {
+                "t": "s",
+                "v": "一级分类",
+                "r": "<t>一级分类</t>",
+                "h": "一级分类",
+                "w": "一级分类"
+            },
+            "E1": {
+                "t": "s",
+                "v": "2ND SUB DEPT NAME",
+                "r": "<t>2ND SUB DEPT NAME</t>",
+                "h": "2ND SUB DEPT NAME",
+                "w": "2ND SUB DEPT NAME"
+            },
+            "F1": {
+                "t": "s",
+                "v": "二级分类",
+                "r": "<t>二级分类</t>",
+                "h": "二级分类",
+                "w": "二级分类"
+            },
+            "G1": {
+                "t": "s",
+                "v": "BRAND",
+                "r": "<t>BRAND</t>",
+                "h": "BRAND",
+                "w": "BRAND"
+            },
+            "H1": {
+                "t": "s",
+                "v": "bar code",
+                "r": "<t>bar code</t>",
+                "h": "bar code",
+                "w": "bar code"
+            },
+            "I1": {
+                "t": "s",
+                "v": "商品配图+使用描述",
+                "r": "<t>商品配图+使用描述</t>",
+                "h": "商品配图+使用描述",
+                "w": "商品配图+使用描述"
+            },
+            "J1": {
+                "t": "s",
+                "v": "English description",
+                "r": "<t>English description</t>",
+                "h": "English description",
+                "w": "English description"
+            },
+            "K1": {
+                "t": "s",
+                "v": "inventory",
+                "r": "<t>inventory</t>",
+                "h": "inventory",
+                "w": "inventory"
+            },
+            "L1": {
+                "t": "s",
+                "v": "Specifications",
+                "r": "<t>Specifications</t>",
+                "h": "Specifications",
+                "w": "Specifications"
+            },
+            "M1": {
+                "t": "s",
+                "v": "Selling price(required)",
+                "r": "<t>Selling price(required)</t>",
+                "h": "Selling price(required)",
+                "w": "Selling price(required)"
+            },
+            "N1": {
+                "t": "s",
+                "v": "Pinyin code",
+                "r": "<t>Pinyin code</t>",
+                "h": "Pinyin code",
+                "w": "Pinyin code"
+            },
+            "O1": {
+                "t": "s",
+                "v": "bar",
+                "r": "<t>bar</t>",
+                "h": "bar",
+                "w": "bar"
+            },
+            "P1": {
+                "t": "s",
+                "v": "website product #",
+                "r": "<t>website product #</t>",
+                "h": "website product #",
+                "w": "website product #"
+            },
+            "Q1": {
+                "t": "s",
+                "v": "product search",
+                "r": "<t>product search</t>",
+                "h": "product search",
+                "w": "product search"
+            },
+            "A2": {
+                "t": "s",
+                "v": "POLA CAFFE LATTE 30P",
+                "r": "<t>POLA CAFFE LATTE 30P</t>",
+                "h": "POLA CAFFE LATTE 30P",
+                "w": "POLA CAFFE LATTE 30P"
+            },
+            "B2": {
+                "t": "s",
+                "v": "宝丽美白咖啡拿铁30P",
+                "r": "<t>宝丽美白咖啡拿铁30P</t>",
+                "h": "宝丽美白咖啡拿铁30P",
+                "w": "宝丽美白咖啡拿铁30P"
+            },
+            "C2": {
+                "t": "s",
+                "v": "SNACK&DRINKS",
+                "r": "<t>SNACK&amp;DRINKS</t>",
+                "h": "SNACK&amp;DRINKS",
+                "w": "SNACK&DRINKS"
+            },
+            "D2": {
+                "t": "s",
+                "v": "美味零食",
+                "r": "<t>美味零食</t><phoneticPr fontId=\"0\" type=\"noConversion\"/>",
+                "h": "美味零食",
+                "w": "美味零食"
+            },
+            "E2": {
+                "t": "s",
+                "v": "BEVERAGES",
+                "r": "<t>BEVERAGES</t>",
+                "h": "BEVERAGES",
+                "w": "BEVERAGES"
+            },
+            "F2": {
+                "t": "s",
+                "v": "咖啡饮料",
+                "r": "<t>咖啡饮料</t>",
+                "h": "咖啡饮料",
+                "w": "咖啡饮料"
+            },
+            "G2": {
+                "t": "s",
+                "v": "POLA",
+                "r": "<t>POLA</t>",
+                "h": "POLA",
+                "w": "POLA"
+            },
+            "H2": {
+                "t": "n",
+                "v": 378864,
+                "w": "378864"
+            },
+            "I2": {
+                "t": "s",
+                "v": "Y ",
+                "r": "<t xml:space=\"preserve\">Y </t>",
+                "h": "Y ",
+                "w": "Y "
+            },
+            "J2": {
+                "t": "s",
+                "v": "",
+                "r": "<t/>",
+                "h": "",
+                "w": ""
+            },
+            "K2": {
+                "t": "s",
+                "v": "1",
+                "r": "<t>1</t>",
+                "h": "1",
+                "w": "1"
+            },
+            "M2": {
+                "t": "s",
+                "v": "66.99",
+                "r": "<t>66.99</t>",
+                "h": "66.99",
+                "w": "66.99"
+            },
+            "N2": {
+                "t": "s",
+                "v": "POLA CAFFE LATTE 30P",
+                "r": "<t>POLA CAFFE LATTE 30P</t>",
+                "h": "POLA CAFFE LATTE 30P",
+                "w": "POLA CAFFE LATTE 30P"
+            },
+            "O2": {
+                "t": "n",
+                "v": 378864,
+                "w": "378864"
+            },
+            "P2": {
+                "t": "s",
+                "v": "https://pcitem.jd.hk/55419875343.html",
+                "r": "<t>https://pcitem.jd.hk/55419875343.html</t>",
+                "h": "https://pcitem.jd.hk/55419875343.html",
+                "w": "https://pcitem.jd.hk/55419875343.html"
+            },
+            "A3": {
+                "t": "s",
+                "v": "GATSBY M RUBBER  WIDE SHAKE  8",
+                "r": "<t>GATSBY M RUBBER  WIDE SHAKE  8</t>",
+                "h": "GATSBY M RUBBER  WIDE SHAKE  8",
+                "w": "GATSBY M RUBBER  WIDE SHAKE  8"
+            },
+            "B3": {
+                "t": "s",
+                "v": "杰士派狂野塑型 发蜡 立体感",
+                "r": "<t>杰士派狂野塑型 发蜡 立体感</t>",
+                "h": "杰士派狂野塑型 发蜡 立体感",
+                "w": "杰士派狂野塑型 发蜡 立体感"
+            },
+            "C3": {
+                "t": "s",
+                "v": "HAIRCARE",
+                "r": "<t>HAIRCARE</t>",
+                "h": "HAIRCARE",
+                "w": "HAIRCARE"
+            },
+            "D3": {
+                "t": "s",
+                "v": "头发养护",
+                "r": "<t>头发养护</t>",
+                "h": "头发养护",
+                "w": "头发养护"
+            },
+            "E3": {
+                "t": "s",
+                "v": "HAIRTOOLS",
+                "r": "<t>HAIRTOOLS</t>",
+                "h": "HAIRTOOLS",
+                "w": "HAIRTOOLS"
+            },
+            "F3": {
+                "t": "s",
+                "v": "造型工具",
+                "r": "<t>造型工具</t>",
+                "h": "造型工具",
+                "w": "造型工具"
+            },
+            "G3": {
+                "t": "s",
+                "v": "GATSBY",
+                "r": "<t>GATSBY</t>",
+                "h": "GATSBY",
+                "w": "GATSBY"
+            },
+            "H3": {
+                "t": "n",
+                "v": 45131646,
+                "w": "45131646"
+            },
+            "I3": {
+                "t": "s",
+                "v": "Y ",
+                "r": "<t xml:space=\"preserve\">Y </t>",
+                "h": "Y ",
+                "w": "Y "
+            },
+            "J3": {
+                "t": "s",
+                "v": "Gatsby Moving Rubber Wild Shake\r\n● Twist hair bundles and make hair tips flutter. \r\nWith high hair styling power, the hair bundles are twisted and softened, and the tips of the hair are freely produced. You can enjoy a style with wild movement full of three-dimensional effect. Since the hair does not harden, it gives a natural impression.\r\n-The contents are the same purple color as the package!",
+                "r": "<t>Gatsby Moving Rubber Wild Shake\r\n● Twist hair bundles and make hair tips flutter. \r\nWith high hair styling power, the hair bundles are twisted and softened, and the tips of the hair are freely produced. You can enjoy a style with wild movement full of three-dimensional effect. Since the hair does not harden, it gives a natural impression.\r\n-The contents are the same purple color as the package!</t>",
+                "h": "Gatsby Moving Rubber Wild Shake&#x000d;<br/>● Twist hair bundles and make hair tips flutter. &#x000d;<br/>With high hair styling power, the hair bundles are twisted and softened, and the tips of the hair are freely produced. You can enjoy a style with wild movement full of three-dimensional effect. Since the hair does not harden, it gives a natural impression.&#x000d;<br/>-The contents are the same purple color as the package!",
+                "w": "Gatsby Moving Rubber Wild Shake\r\n● Twist hair bundles and make hair tips flutter. \r\nWith high hair styling power, the hair bundles are twisted and softened, and the tips of the hair are freely produced. You can enjoy a style with wild movement full of three-dimensional effect. Since the hair does not harden, it gives a natural impression.\r\n-The contents are the same purple color as the package!"
+            },
+            "K3": {
+                "t": "s",
+                "v": "8",
+                "r": "<t>8</t>",
+                "h": "8",
+                "w": "8"
+            },
+            "L3": {
+                "t": "s",
+                "v": "0G",
+                "r": "<t>0G</t>",
+                "h": "0G",
+                "w": "0G"
+            },
+            "M3": {
+                "t": "s",
+                "v": "12.99",
+                "r": "<t>12.99</t>",
+                "h": "12.99",
+                "w": "12.99"
+            },
+            "N3": {
+                "t": "s",
+                "v": "GATSBY M RUBBER  WIDE SHAKE  8",
+                "r": "<t>GATSBY M RUBBER  WIDE SHAKE  8</t>",
+                "h": "GATSBY M RUBBER  WIDE SHAKE  8",
+                "w": "GATSBY M RUBBER  WIDE SHAKE  8"
+            },
+            "O3": {
+                "t": "n",
+                "v": 45131646,
+                "w": "45131646"
+            },
+            "P3": {
+                "t": "s",
+                "v": "https://pcitem.jd.hk/66111274568.html",
+                "r": "<t>https://pcitem.jd.hk/66111274568.html</t>",
+                "h": "https://pcitem.jd.hk/66111274568.html",
+                "w": "https://pcitem.jd.hk/66111274568.html"
+            },
+            "A4": {
+                "t": "s",
+                "v": "GATSBY M RUBBER   AIR  RISE  8",
+                "r": "<t>GATSBY M RUBBER   AIR  RISE  8</t>",
+                "h": "GATSBY M RUBBER   AIR  RISE  8",
+                "w": "GATSBY M RUBBER   AIR  RISE  8"
+            },
+            "B4": {
+                "t": "s",
+                "v": "杰士派空气塑型发蜡80g",
+                "r": "<t>杰士派空气塑型发蜡80g</t>",
+                "h": "杰士派空气塑型发蜡80g",
+                "w": "杰士派空气塑型发蜡80g"
+            },
+            "C4": {
+                "t": "s",
+                "v": "HAIRCARE",
+                "r": "<t>HAIRCARE</t>",
+                "h": "HAIRCARE",
+                "w": "HAIRCARE"
+            },
+            "D4": {
+                "t": "s",
+                "v": "头发养护",
+                "r": "<t>头发养护</t>",
+                "h": "头发养护",
+                "w": "头发养护"
+            },
+            "E4": {
+                "t": "s",
+                "v": "HAIRTOOLS",
+                "r": "<t>HAIRTOOLS</t>",
+                "h": "HAIRTOOLS",
+                "w": "HAIRTOOLS"
+            },
+            "F4": {
+                "t": "s",
+                "v": "造型工具",
+                "r": "<t>造型工具</t>",
+                "h": "造型工具",
+                "w": "造型工具"
+            },
+            "G4": {
+                "t": "s",
+                "v": "GATSBY",
+                "r": "<t>GATSBY</t>",
+                "h": "GATSBY",
+                "w": "GATSBY"
+            },
+            "H4": {
+                "t": "s",
+                "v": "45131660",
+                "r": "<t>45131660</t>",
+                "h": "45131660",
+                "w": "45131660"
+            },
+            "I4": {
+                "t": "s",
+                "v": "Y",
+                "r": "<t>Y</t>",
+                "h": "Y",
+                "w": "Y"
+            },
+            "J4": {
+                "t": "s",
+                "v": "Gatsby Moving Rubber Air Rise\r\n● Lifts fluffy hair to express a soft and elastic feeling of air.\r\nYou can lift your hair softly to create an elastic movement that feels like it contains air. The hair does not harden, so it feels good to the touch. The supple and hard hair styling power keeps the fluffy feeling you created.\r\n-The contents are the same green color as the package!",
+                "r": "<t>Gatsby Moving Rubber Air Rise\r\n● Lifts fluffy hair to express a soft and elastic feeling of air.\r\nYou can lift your hair softly to create an elastic movement that feels like it contains air. The hair does not harden, so it feels good to the touch. The supple and hard hair styling power keeps the fluffy feeling you created.\r\n-The contents are the same green color as the package!</t>",
+                "h": "Gatsby Moving Rubber Air Rise&#x000d;<br/>● Lifts fluffy hair to express a soft and elastic feeling of air.&#x000d;<br/>You can lift your hair softly to create an elastic movement that feels like it contains air. The hair does not harden, so it feels good to the touch. The supple and hard hair styling power keeps the fluffy feeling you created.&#x000d;<br/>-The contents are the same green color as the package!",
+                "w": "Gatsby Moving Rubber Air Rise\r\n● Lifts fluffy hair to express a soft and elastic feeling of air.\r\nYou can lift your hair softly to create an elastic movement that feels like it contains air. The hair does not harden, so it feels good to the touch. The supple and hard hair styling power keeps the fluffy feeling you created.\r\n-The contents are the same green color as the package!"
+            },
+            "K4": {
+                "t": "s",
+                "v": "8",
+                "r": "<t>8</t>",
+                "h": "8",
+                "w": "8"
+            },
+            "L4": {
+                "t": "s",
+                "v": "0G",
+                "r": "<t>0G</t>",
+                "h": "0G",
+                "w": "0G"
+            },
+            "M4": {
+                "t": "s",
+                "v": "12.99",
+                "r": "<t>12.99</t>",
+                "h": "12.99",
+                "w": "12.99"
+            },
+            "N4": {
+                "t": "s",
+                "v": "GATSBY M RUBBER   AIR  RISE  8",
+                "r": "<t>GATSBY M RUBBER   AIR  RISE  8</t>",
+                "h": "GATSBY M RUBBER   AIR  RISE  8",
+                "w": "GATSBY M RUBBER   AIR  RISE  8"
+            },
+            "O4": {
+                "t": "n",
+                "v": 45131660,
+                "w": "45131660"
+            },
+            "P4": {
+                "t": "s",
+                "v": "https://pcitem.jd.hk/66109526944.html",
+                "r": "<t>https://pcitem.jd.hk/66109526944.html</t>",
+                "h": "https://pcitem.jd.hk/66109526944.html",
+                "w": "https://pcitem.jd.hk/66109526944.html"
+            },
+            "A5": {
+                "t": "s",
+                "v": "LOTTO KARIN THROAT CANDY 10P",
+                "r": "<t>LOTTO KARIN THROAT CANDY 10P</t>",
+                "h": "LOTTO KARIN THROAT CANDY 10P",
+                "w": "LOTTO KARIN THROAT CANDY 10P"
+            },
+            "B5": {
+                "t": "s",
+                "v": "乐天水果nodo糖果",
+                "r": "<t>乐天水果nodo糖果</t>",
+                "h": "乐天水果nodo糖果",
+                "w": "乐天水果nodo糖果"
+            },
+            "C5": {
+                "t": "s",
+                "v": "SNACK&DRINKS",
+                "r": "<t>SNACK&amp;DRINKS</t>",
+                "h": "SNACK&amp;DRINKS",
+                "w": "SNACK&DRINKS"
+            },
+            "D5": {
+                "t": "s",
+                "v": "美味零食",
+                "r": "<t>美味零食</t><phoneticPr fontId=\"0\" type=\"noConversion\"/>",
+                "h": "美味零食",
+                "w": "美味零食"
+            },
+            "E5": {
+                "t": "s",
+                "v": "CANDY&DESSERT",
+                "r": "<t>CANDY&amp;DESSERT</t>",
+                "h": "CANDY&amp;DESSERT",
+                "w": "CANDY&DESSERT"
+            },
+            "F5": {
+                "t": "s",
+                "v": "糖果甜点",
+                "r": "<t>糖果甜点</t>",
+                "h": "糖果甜点",
+                "w": "糖果甜点"
+            },
+            "G5": {
+                "t": "s",
+                "v": "LOTTO",
+                "r": "<t>LOTTO</t>",
+                "h": "LOTTO",
+                "w": "LOTTO"
+            },
+            "H5": {
+                "t": "s",
+                "v": "45141164",
+                "r": "<t>45141164</t>",
+                "h": "45141164",
+                "w": "45141164"
+            },
+            "J5": {
+                "t": "s",
+                "v": "Lotte's new efficacy gum! A refreshing mint feeling that spreads the moment you put it in your mouth, does not stick to teeth",
+                "r": "<t>Lotte's new efficacy gum! A refreshing mint feeling that spreads the moment you put it in your mouth, does not stick to teeth</t>",
+                "h": "Lotte&apos;s new efficacy gum! A refreshing mint feeling that spreads the moment you put it in your mouth, does not stick to teeth",
+                "w": "Lotte's new efficacy gum! A refreshing mint feeling that spreads the moment you put it in your mouth, does not stick to teeth"
+            },
+            "K5": {
+                "t": "s",
+                "v": "3",
+                "r": "<t>3</t>",
+                "h": "3",
+                "w": "3"
+            },
+            "L5": {
+                "t": "s",
+                "v": "ORANGE",
+                "r": "<t>ORANGE</t>",
+                "h": "ORANGE",
+                "w": "ORANGE"
+            },
+            "M5": {
+                "t": "s",
+                "v": "2.99",
+                "r": "<t>2.99</t>",
+                "h": "2.99",
+                "w": "2.99"
+            },
+            "N5": {
+                "t": "s",
+                "v": "LOTTO KARIN THROAT CANDY 10P",
+                "r": "<t>LOTTO KARIN THROAT CANDY 10P</t>",
+                "h": "LOTTO KARIN THROAT CANDY 10P",
+                "w": "LOTTO KARIN THROAT CANDY 10P"
+            },
+            "O5": {
+                "t": "n",
+                "v": 45141164,
+                "w": "45141164"
+            },
+            "P5": {
+                "t": "s",
+                "v": "https://item.rakuten.co.jp/matsukiyo/45141164/",
+                "r": "<t>https://item.rakuten.co.jp/matsukiyo/45141164/</t>",
+                "h": "https://item.rakuten.co.jp/matsukiyo/45141164/",
+                "w": "https://item.rakuten.co.jp/matsukiyo/45141164/"
+            },
+            "A6": {
+                "t": "s",
+                "v": "LOTTE DORAEMON CHEWING GUM 5P",
+                "r": "<t>LOTTE DORAEMON CHEWING GUM 5P</t>",
+                "h": "LOTTE DORAEMON CHEWING GUM 5P",
+                "w": "LOTTE DORAEMON CHEWING GUM 5P"
+            },
+            "B6": {
+                "t": "s",
+                "v": "乐天哆啦a梦口香糖15g",
+                "r": "<t>乐天哆啦a梦口香糖15g</t>",
+                "h": "乐天哆啦a梦口香糖15g",
+                "w": "乐天哆啦a梦口香糖15g"
+            },
+            "C6": {
+                "t": "s",
+                "v": "SNACK&DRINKS",
+                "r": "<t>SNACK&amp;DRINKS</t>",
+                "h": "SNACK&amp;DRINKS",
+                "w": "SNACK&DRINKS"
+            },
+            "D6": {
+                "t": "s",
+                "v": "美味零食",
+                "r": "<t>美味零食</t><phoneticPr fontId=\"0\" type=\"noConversion\"/>",
+                "h": "美味零食",
+                "w": "美味零食"
+            },
+            "E6": {
+                "t": "s",
+                "v": "CANDY&DESSERT",
+                "r": "<t>CANDY&amp;DESSERT</t>",
+                "h": "CANDY&amp;DESSERT",
+                "w": "CANDY&DESSERT"
+            },
+            "F6": {
+                "t": "s",
+                "v": "糖果甜点",
+                "r": "<t>糖果甜点</t>",
+                "h": "糖果甜点",
+                "w": "糖果甜点"
+            },
+            "G6": {
+                "t": "s",
+                "v": "LOTTO",
+                "r": "<t>LOTTO</t>",
+                "h": "LOTTO",
+                "w": "LOTTO"
+            },
+            "H6": {
+                "t": "s",
+                "v": "45141447",
+                "r": "<t>45141447</t>",
+                "h": "45141447",
+                "w": "45141447"
+            },
+            "J6": {
+                "t": "s",
+                "v": "Doraemon Fusen Gum is a soda flavor that is very popular with children.\r\nThe interior paper is full of fun projects for Doraemon.",
+                "r": "<t>Doraemon Fusen Gum is a soda flavor that is very popular with children.\r\nThe interior paper is full of fun projects for Doraemon.</t>",
+                "h": "Doraemon Fusen Gum is a soda flavor that is very popular with children.&#x000d;<br/>The interior paper is full of fun projects for Doraemon.",
+                "w": "Doraemon Fusen Gum is a soda flavor that is very popular with children.\r\nThe interior paper is full of fun projects for Doraemon."
+            },
+            "K6": {
+                "t": "s",
+                "v": "1",
+                "r": "<t>1</t>",
+                "h": "1",
+                "w": "1"
+            },
+            "L6": {
+                "t": "s",
+                "v": "SODA FLAVOUR",
+                "r": "<t>SODA FLAVOUR</t>",
+                "h": "SODA FLAVOUR",
+                "w": "SODA FLAVOUR"
+            },
+            "M6": {
+                "t": "s",
+                "v": "1.99",
+                "r": "<t>1.99</t>",
+                "h": "1.99",
+                "w": "1.99"
+            },
+            "N6": {
+                "t": "s",
+                "v": "LOTTE DORAEMON CHEWING GUM 5P",
+                "r": "<t>LOTTE DORAEMON CHEWING GUM 5P</t>",
+                "h": "LOTTE DORAEMON CHEWING GUM 5P",
+                "w": "LOTTE DORAEMON CHEWING GUM 5P"
+            },
+            "O6": {
+                "t": "n",
+                "v": 45141447,
+                "w": "45141447"
+            },
+            "P6": {
+                "t": "s",
+                "v": "https://item.rakuten.co.jp/39march/45141447/",
+                "r": "<t>https://item.rakuten.co.jp/39march/45141447/</t>",
+                "h": "https://item.rakuten.co.jp/39march/45141447/",
+                "w": "https://item.rakuten.co.jp/39march/45141447/"
+            },
+            "!margins": {
+                "left": 0.7,
+                "right": 0.7,
+                "top": 0.75,
+                "bottom": 0.75,
+                "header": 0.3,
+                "footer": 0.3
+            }
+        }
+    },
+    "SheetNames": [
+        "Sheet1"
+    ],
+    "Strings": [
+        {
+            "t": "Name(required)",
+            "r": "<t>Name(required)</t>",
+            "h": "Name(required)"
+        },
+        {
+            "t": "Chinese name",
+            "r": "<t>Chinese name</t>",
+            "h": "Chinese name"
+        },
+        {
+            "t": "Sub Dept Name",
+            "r": "<t>Sub Dept Name</t>",
+            "h": "Sub Dept Name"
+        },
+        {
+            "t": "一级分类",
+            "r": "<t>一级分类</t>",
+            "h": "一级分类"
+        },
+        {
+            "t": "2ND SUB DEPT NAME",
+            "r": "<t>2ND SUB DEPT NAME</t>",
+            "h": "2ND SUB DEPT NAME"
+        },
+        {
+            "t": "二级分类",
+            "r": "<t>二级分类</t>",
+            "h": "二级分类"
+        },
+        {
+            "t": "BRAND",
+            "r": "<t>BRAND</t>",
+            "h": "BRAND"
+        },
+        {
+            "t": "bar code",
+            "r": "<t>bar code</t>",
+            "h": "bar code"
+        },
+        {
+            "t": "商品配图+使用描述",
+            "r": "<t>商品配图+使用描述</t>",
+            "h": "商品配图+使用描述"
+        },
+        {
+            "t": "English description",
+            "r": "<t>English description</t>",
+            "h": "English description"
+        },
+        {
+            "t": "inventory",
+            "r": "<t>inventory</t>",
+            "h": "inventory"
+        },
+        {
+            "t": "Specifications",
+            "r": "<t>Specifications</t>",
+            "h": "Specifications"
+        },
+        {
+            "t": "Selling price(required)",
+            "r": "<t>Selling price(required)</t>",
+            "h": "Selling price(required)"
+        },
+        {
+            "t": "Pinyin code",
+            "r": "<t>Pinyin code</t>",
+            "h": "Pinyin code"
+        },
+        {
+            "t": "bar",
+            "r": "<t>bar</t>",
+            "h": "bar"
+        },
+        {
+            "t": "website product #",
+            "r": "<t>website product #</t>",
+            "h": "website product #"
+        },
+        {
+            "t": "product search",
+            "r": "<t>product search</t>",
+            "h": "product search"
+        },
+        {
+            "t": "8",
+            "r": "<t>8</t>",
+            "h": "8"
+        },
+        {
+            "t": "2.99",
+            "r": "<t>2.99</t>",
+            "h": "2.99"
+        },
+        {
+            "t": "1",
+            "r": "<t>1</t>",
+            "h": "1"
+        },
+        {
+            "t": "3",
+            "r": "<t>3</t>",
+            "h": "3"
+        },
+        {
+            "t": "HAIRCARE",
+            "r": "<t>HAIRCARE</t>",
+            "h": "HAIRCARE"
+        },
+        {
+            "t": "头发养护",
+            "r": "<t>头发养护</t>",
+            "h": "头发养护"
+        },
+        {
+            "t": "SNACK&DRINKS",
+            "r": "<t>SNACK&amp;DRINKS</t>",
+            "h": "SNACK&amp;DRINKS"
+        },
+        {
+            "t": "CANDY&DESSERT",
+            "r": "<t>CANDY&amp;DESSERT</t>",
+            "h": "CANDY&amp;DESSERT"
+        },
+        {
+            "t": "糖果甜点",
+            "r": "<t>糖果甜点</t>",
+            "h": "糖果甜点"
+        },
+        {
+            "t": "POLA CAFFE LATTE 30P",
+            "r": "<t>POLA CAFFE LATTE 30P</t>",
+            "h": "POLA CAFFE LATTE 30P"
+        },
+        {
+            "t": "宝丽美白咖啡拿铁30P",
+            "r": "<t>宝丽美白咖啡拿铁30P</t>",
+            "h": "宝丽美白咖啡拿铁30P"
+        },
+        {
+            "t": "美味零食",
+            "r": "<t>美味零食</t><phoneticPr fontId=\"0\" type=\"noConversion\"/>",
+            "h": "美味零食"
+        },
+        {
+            "t": "美味零食",
+            "r": "<t>美味零食</t><phoneticPr fontId=\"0\" type=\"noConversion\"/>",
+            "h": "美味零食"
+        },
+        {
+            "t": "BEVERAGES",
+            "r": "<t>BEVERAGES</t>",
+            "h": "BEVERAGES"
+        },
+        {
+            "t": "咖啡饮料",
+            "r": "<t>咖啡饮料</t>",
+            "h": "咖啡饮料"
+        },
+        {
+            "t": "POLA",
+            "r": "<t>POLA</t>",
+            "h": "POLA"
+        },
+        {
+            "t": "Y ",
+            "r": "<t xml:space=\"preserve\">Y </t>",
+            "h": "Y "
+        },
+        {
+            "t": "",
+            "r": "<t/>",
+            "h": ""
+        },
+        {
+            "t": "66.99",
+            "r": "<t>66.99</t>",
+            "h": "66.99"
+        },
+        {
+            "t": "https://pcitem.jd.hk/55419875343.html",
+            "r": "<t>https://pcitem.jd.hk/55419875343.html</t>",
+            "h": "https://pcitem.jd.hk/55419875343.html"
+        },
+        {
+            "t": "GATSBY M RUBBER  WIDE SHAKE  8",
+            "r": "<t>GATSBY M RUBBER  WIDE SHAKE  8</t>",
+            "h": "GATSBY M RUBBER  WIDE SHAKE  8"
+        },
+        {
+            "t": "杰士派狂野塑型 发蜡 立体感",
+            "r": "<t>杰士派狂野塑型 发蜡 立体感</t>",
+            "h": "杰士派狂野塑型 发蜡 立体感"
+        },
+        {
+            "t": "HAIRTOOLS",
+            "r": "<t>HAIRTOOLS</t>",
+            "h": "HAIRTOOLS"
+        },
+        {
+            "t": "造型工具",
+            "r": "<t>造型工具</t>",
+            "h": "造型工具"
+        },
+        {
+            "t": "GATSBY",
+            "r": "<t>GATSBY</t>",
+            "h": "GATSBY"
+        },
+        {
+            "t": "Gatsby Moving Rubber Wild Shake\r\n● Twist hair bundles and make hair tips flutter. \r\nWith high hair styling power, the hair bundles are twisted and softened, and the tips of the hair are freely produced. You can enjoy a style with wild movement full of three-dimensional effect. Since the hair does not harden, it gives a natural impression.\r\n-The contents are the same purple color as the package!",
+            "r": "<t>Gatsby Moving Rubber Wild Shake\r\n● Twist hair bundles and make hair tips flutter. \r\nWith high hair styling power, the hair bundles are twisted and softened, and the tips of the hair are freely produced. You can enjoy a style with wild movement full of three-dimensional effect. Since the hair does not harden, it gives a natural impression.\r\n-The contents are the same purple color as the package!</t>",
+            "h": "Gatsby Moving Rubber Wild Shake&#x000d;<br/>● Twist hair bundles and make hair tips flutter. &#x000d;<br/>With high hair styling power, the hair bundles are twisted and softened, and the tips of the hair are freely produced. You can enjoy a style with wild movement full of three-dimensional effect. Since the hair does not harden, it gives a natural impression.&#x000d;<br/>-The contents are the same purple color as the package!"
+        },
+        {
+            "t": "0G",
+            "r": "<t>0G</t>",
+            "h": "0G"
+        },
+        {
+            "t": "12.99",
+            "r": "<t>12.99</t>",
+            "h": "12.99"
+        },
+        {
+            "t": "https://pcitem.jd.hk/66111274568.html",
+            "r": "<t>https://pcitem.jd.hk/66111274568.html</t>",
+            "h": "https://pcitem.jd.hk/66111274568.html"
+        },
+        {
+            "t": "GATSBY M RUBBER   AIR  RISE  8",
+            "r": "<t>GATSBY M RUBBER   AIR  RISE  8</t>",
+            "h": "GATSBY M RUBBER   AIR  RISE  8"
+        },
+        {
+            "t": "杰士派空气塑型发蜡80g",
+            "r": "<t>杰士派空气塑型发蜡80g</t>",
+            "h": "杰士派空气塑型发蜡80g"
+        },
+        {
+            "t": "45131660",
+            "r": "<t>45131660</t>",
+            "h": "45131660"
+        },
+        {
+            "t": "Y",
+            "r": "<t>Y</t>",
+            "h": "Y"
+        },
+        {
+            "t": "Gatsby Moving Rubber Air Rise\r\n● Lifts fluffy hair to express a soft and elastic feeling of air.\r\nYou can lift your hair softly to create an elastic movement that feels like it contains air. The hair does not harden, so it feels good to the touch. The supple and hard hair styling power keeps the fluffy feeling you created.\r\n-The contents are the same green color as the package!",
+            "r": "<t>Gatsby Moving Rubber Air Rise\r\n● Lifts fluffy hair to express a soft and elastic feeling of air.\r\nYou can lift your hair softly to create an elastic movement that feels like it contains air. The hair does not harden, so it feels good to the touch. The supple and hard hair styling power keeps the fluffy feeling you created.\r\n-The contents are the same green color as the package!</t>",
+            "h": "Gatsby Moving Rubber Air Rise&#x000d;<br/>● Lifts fluffy hair to express a soft and elastic feeling of air.&#x000d;<br/>You can lift your hair softly to create an elastic movement that feels like it contains air. The hair does not harden, so it feels good to the touch. The supple and hard hair styling power keeps the fluffy feeling you created.&#x000d;<br/>-The contents are the same green color as the package!"
+        },
+        {
+            "t": "https://pcitem.jd.hk/66109526944.html",
+            "r": "<t>https://pcitem.jd.hk/66109526944.html</t>",
+            "h": "https://pcitem.jd.hk/66109526944.html"
+        },
+        {
+            "t": "LOTTO KARIN THROAT CANDY 10P",
+            "r": "<t>LOTTO KARIN THROAT CANDY 10P</t>",
+            "h": "LOTTO KARIN THROAT CANDY 10P"
+        },
+        {
+            "t": "乐天水果nodo糖果",
+            "r": "<t>乐天水果nodo糖果</t>",
+            "h": "乐天水果nodo糖果"
+        },
+        {
+            "t": "LOTTO",
+            "r": "<t>LOTTO</t>",
+            "h": "LOTTO"
+        },
+        {
+            "t": "45141164",
+            "r": "<t>45141164</t>",
+            "h": "45141164"
+        },
+        {
+            "t": "Lotte's new efficacy gum! A refreshing mint feeling that spreads the moment you put it in your mouth, does not stick to teeth",
+            "r": "<t>Lotte's new efficacy gum! A refreshing mint feeling that spreads the moment you put it in your mouth, does not stick to teeth</t>",
+            "h": "Lotte&apos;s new efficacy gum! A refreshing mint feeling that spreads the moment you put it in your mouth, does not stick to teeth"
+        },
+        {
+            "t": "ORANGE",
+            "r": "<t>ORANGE</t>",
+            "h": "ORANGE"
+        },
+        {
+            "t": "https://item.rakuten.co.jp/matsukiyo/45141164/",
+            "r": "<t>https://item.rakuten.co.jp/matsukiyo/45141164/</t>",
+            "h": "https://item.rakuten.co.jp/matsukiyo/45141164/"
+        },
+        {
+            "t": "LOTTE DORAEMON CHEWING GUM 5P",
+            "r": "<t>LOTTE DORAEMON CHEWING GUM 5P</t>",
+            "h": "LOTTE DORAEMON CHEWING GUM 5P"
+        },
+        {
+            "t": "乐天哆啦a梦口香糖15g",
+            "r": "<t>乐天哆啦a梦口香糖15g</t>",
+            "h": "乐天哆啦a梦口香糖15g"
+        },
+        {
+            "t": "45141447",
+            "r": "<t>45141447</t>",
+            "h": "45141447"
+        },
+        {
+            "t": "Doraemon Fusen Gum is a soda flavor that is very popular with children.\r\nThe interior paper is full of fun projects for Doraemon.",
+            "r": "<t>Doraemon Fusen Gum is a soda flavor that is very popular with children.\r\nThe interior paper is full of fun projects for Doraemon.</t>",
+            "h": "Doraemon Fusen Gum is a soda flavor that is very popular with children.&#x000d;<br/>The interior paper is full of fun projects for Doraemon."
+        },
+        {
+            "t": "SODA FLAVOUR",
+            "r": "<t>SODA FLAVOUR</t>",
+            "h": "SODA FLAVOUR"
+        },
+        {
+            "t": "1.99",
+            "r": "<t>1.99</t>",
+            "h": "1.99"
+        },
+        {
+            "t": "https://item.rakuten.co.jp/39march/45141447/",
+            "r": "<t>https://item.rakuten.co.jp/39march/45141447/</t>",
+            "h": "https://item.rakuten.co.jp/39march/45141447/"
+        },
+        {
+            "t": ""
+        }
+    ],
+    "Styles": {
+        "Fonts": [
+            {
+                "sz": 11,
+                "color": {
+                    "theme": 1
+                },
+                "name": "宋体",
+                "family": 2,
+                "scheme": "minor"
+            },
+            {
+                "sz": 9,
+                "name": "宋体",
+                "family": 3,
+                "scheme": "minor"
+            }
+        ],
+        "Fills": [
+            {
+                "patternType": "none"
+            },
+            {
+                "patternType": "gray125"
+            }
+        ],
+        "Borders": [
+            {}
+        ],
+        "CellXf": [
+            {
+                "numFmtId": 0,
+                "numfmtid": "0",
+                "fontId": 0,
+                "fontid": "0",
+                "fillId": 0,
+                "fillid": "0",
+                "borderId": 0,
+                "borderid": "0",
+                "xfId": 0,
+                "xfid": "0"
+            },
+            {
+                "numFmtId": 1,
+                "numfmtid": "1",
+                "fontId": 0,
+                "fontid": "0",
+                "fillId": 0,
+                "fillid": "0",
+                "borderId": 0,
+                "borderid": "0",
+                "xfId": 0,
+                "xfid": "0",
+                "applyNumberFormat": true,
+                "applynumberformat": "1"
+            },
+            {
+                "numFmtId": 0,
+                "numfmtid": "0",
+                "fontId": 0,
+                "fontid": "0",
+                "fillId": 0,
+                "fillid": "0",
+                "borderId": 0,
+                "borderid": "0",
+                "xfId": 0,
+                "xfid": "0",
+                "applyFill": true,
+                "applyfill": "1"
+            },
+            {
+                "numFmtId": 1,
+                "numfmtid": "1",
+                "fontId": 0,
+                "fontid": "0",
+                "fillId": 0,
+                "fillid": "0",
+                "borderId": 0,
+                "borderid": "0",
+                "xfId": 0,
+                "xfid": "0",
+                "applyNumberFormat": true,
+                "applynumberformat": "1",
+                "applyFill": true,
+                "applyfill": "1",
+                "applyAlignment": true,
+                "applyalignment": "1",
+                "alignment": {
+                    "horizontal": "left"
+                }
+            },
+            {
+                "numFmtId": 1,
+                "numfmtid": "1",
+                "fontId": 0,
+                "fontid": "0",
+                "fillId": 0,
+                "fillid": "0",
+                "borderId": 0,
+                "borderid": "0",
+                "xfId": 0,
+                "xfid": "0",
+                "applyNumberFormat": true,
+                "applynumberformat": "1",
+                "applyFill": true,
+                "applyfill": "1"
+            },
+            {
+                "numFmtId": 0,
+                "numfmtid": "0",
+                "fontId": 0,
+                "fontid": "0",
+                "fillId": 0,
+                "fillid": "0",
+                "borderId": 0,
+                "borderid": "0",
+                "xfId": 0,
+                "xfid": "0",
+                "applyFill": true,
+                "applyfill": "1",
+                "applyAlignment": true,
+                "applyalignment": "1",
+                "alignment": {
+                    "horizontal": "left"
+                }
+            }
+        ]
+    },
+    "Themes": {},
+    "SSF": {
+        "0": "General",
+        "1": "0",
+        "2": "0.00",
+        "3": "#,##0",
+        "4": "#,##0.00",
+        "9": "0%",
+        "10": "0.00%",
+        "11": "0.00E+00",
+        "12": "# ?/?",
+        "13": "# ??/??",
+        "14": "m/d/yy",
+        "15": "d-mmm-yy",
+        "16": "d-mmm",
+        "17": "mmm-yy",
+        "18": "h:mm AM/PM",
+        "19": "h:mm:ss AM/PM",
+        "20": "h:mm",
+        "21": "h:mm:ss",
+        "22": "m/d/yy h:mm",
+        "37": "#,##0 ;(#,##0)",
+        "38": "#,##0 ;[Red](#,##0)",
+        "39": "#,##0.00;(#,##0.00)",
+        "40": "#,##0.00;[Red](#,##0.00)",
+        "45": "mm:ss",
+        "46": "[h]:mm:ss",
+        "47": "mmss.0",
+        "48": "##0.0E+0",
+        "49": "@",
+        "56": "\"上午/下午 \"hh\"時\"mm\"分\"ss\"秒 \""
+    }
+}
