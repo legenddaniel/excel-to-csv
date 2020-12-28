@@ -6,9 +6,10 @@
   "scripts": {
     "test": "test"
   },
-  "author": "legenddaniel",
+  "author": "Daniel Siyuan Zuo",
   "license": "ISC",
   "dependencies": {
+    "image-size": "^0.9.3",
     "xlsx": "^0.16.9"
   }
 }
