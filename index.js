@@ -12,20 +12,31 @@ const sizeOf = require('image-size');
  * -------------------------------------------------------------------------------
  */
 
-// Config that normally you don't need to change.
-const originalName = 'template.xlsx';
-const sheetName = 'Sheet1';
-const imgDir = './all products/';
-const missing = ['product images', 'description images', 'english description', 'chinese description'];
-
 // Must be the year/month of image being uploaded. Check and change every time.
 const imgUploadMonth = '2020/12';
 
 // Upload products without ... Check and change every time.
-const uploadNoProdImg = 0;
-const uploadNoDescImg = 1;
-const uploadNoEngDesc = 1;
-const uploadNoChnDesc = 1;
+const configs = {
+    uploadNoProdImg: 1,
+    uploadNoDescImg: 1,
+    uploadNoEngDesc: 0,
+    uploadNoChnDesc: 1
+};
+// const uploadNoProdImg = 1;
+// const uploadNoDescImg = 1;
+// const uploadNoEngDesc = 0;
+// const uploadNoChnDesc = 1;
+
+// Config that normally you don't need to change.
+const originalName = 'template.xlsx';
+const sheetName = 'Sheet1';
+const imgDir = './all products/';
+const missing = {
+    'product images': 'AD',
+    'description images': 'I',
+    'english description': 'H',
+    'chinese description': 'H'
+};
 
 /**
  * -------------------------------------------------------------------------------
@@ -136,18 +147,36 @@ const deleteRow = (ws, row) => {
 };
 
 /**
- * @desc Export rows with missing info to separate excel files
+ * @desc Find the rows with empty value at certain column (type)
  * @param {string} type Within 'product images', 'description images', 'english description', 'chinese description'
- * @param {array} data [[reorder#, name], [reorder#, name], ...]. Contains only rows with missing info
- * @return {undefined}
+ * @param {object} data worksheet
+ * @return {array} rows without certain info (empty cell)
  */
-const exportMissing = (type, data) => {
-    if (!missing.includes(type)) {
+const getRowsMissing = (type, data) => {
+    if (!Object.keys(missing).includes(type)) {
         throw new Error('This type was not in the config!');
     }
 
-    if (!data instanceof Array) {
-        throw new Error('Data must be a nested array with Reorder# and Name!');
+    const rows = [];
+    const oldRows = data['!ref'].match(/\d+$/)[0];
+    for (let i = 2; i <= oldRows; i++) {
+        if (data[missing[type] + i].v === '') {
+            rows.push(i);
+        }
+    }
+
+    return rows;
+}
+
+/**
+ * @desc Export rows with missing info to separate excel files
+ * @param {string} type Within 'product images', 'description images', 'english description', 'chinese description'
+ * @param {array} data worksheet
+ * @return {array} rows without certain info (empty cell)
+ */
+const exportMissing = (type, data) => {
+    if (!Object.keys(missing).includes(type)) {
+        throw new Error('This type was not in the config!');
     }
 
     // Final data for export. Initialized by the values of the header. Do not change the structure.
@@ -156,36 +185,39 @@ const exportMissing = (type, data) => {
         B1: { v: 'Name' }
     };
 
-    // Set values of dataMissing from the argument
-    data.forEach((entry, index) => {
-        dataMissing['A' + (index + 2)] = { v: entry[0] };
-        dataMissing['B' + (index + 2)] = { v: entry[1] };
-    });
-    dataMissing['!ref'] = 'A1:B' + (data.length + 1);
+    // Find the rows with empty values of type and take the Reorder# and Name to the dataMissing
+    const rows = getRowsMissing(type, data);
+    let newRows = 2;
+    for (let row of rows) {
+        dataMissing['A' + newRows] = { v: data['AN' + row].v };
+        dataMissing['B' + newRows] = { v: data['D' + row].v };
+        newRows++;
+    }
+    dataMissing['!ref'] = 'A1:B' + newRows;
 
     // Add property 't' to each cell (key)
     const exportedData = setCellType(dataMissing);
 
     // Write the new file
     const workbook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(workbook, exportedData, 'Sheet1');
+    XLSX.utils.book_append_sheet(workbook, exportedData, sheetName);
     try {
         XLSX.writeFile(workbook, `./missing/missing ${type}.xlsx`);
         console.log(`Successfully export 'missing ${type}.xlsx' to path: ./missing/`);
     } catch (e) {
-        console.log(e);
+        console.error(e);
+    } finally {
+        return rows;
     }
-
 };
 
 /**
- * @desc Main function to export CSVs
+ * @desc Main function to export
  * @param {string} lang 'english' | 'chinese'
  * @param {obejct} wb workbook
  * @return {undefined}
  */
-const exportCSV = (lang, wb) => {
-
+const main = (lang, wb) => {
     if (lang !== 'english' && lang !== 'chinese') {
         throw new Error('Must be "english" or "chinese" as the parameter!');
     }
@@ -300,6 +332,9 @@ const exportCSV = (lang, wb) => {
         AL: { v: '' },
         AM: { v: '0' }
     };
+    if (lang === 'chinese') {
+        fixed.H = { v: '' }; // Like just said, for now no chinese description
+    }
     Object.entries(fixed).forEach(([col, value]) => {
         for (let i = 2; i <= numOfRows; i++) {
             data[col + i] = value;
@@ -324,12 +359,18 @@ const exportCSV = (lang, wb) => {
     }
 
     // Export rows with missing info according to the config
-    for (let type of missing) {
-        const dataMissing = [[], []];
-        // exportMissing(type, dataMissing);
+    const types = Object.keys(missing);
+    const currentMissing = lang === 'english' ? types.slice(0, 3) : [types[3]];
+    // const currentConfigs = Object.fromEntries(lang === 'english' ? Object.entries(configs).slice())
+    // for (let i = 0; i < 3)
+    for (let type of currentMissing) {
+        exportMissing(type, data);
     }
 
-    // Delete rows here, outside the exportMissing()
+    // Remove rows from being exported according to the config
+    // if (!uploadNoProdImg) {
+    //     deleteRow(data, row);
+    // }
 
 
 
@@ -343,12 +384,12 @@ const exportCSV = (lang, wb) => {
             .pipe(fs.createWriteStream(`exported - ${lang} edition.csv`));
         console.log(`Successfully export 'exported - ${lang} edition.csv' to path: ./`);
     } catch (e) {
-        console.log(err);
+        console.error(err);
     }
 
 }
 
 // Must use original file for both export, i.e. doing identical tasks twice, since the data structure is matched strictly with the original file.
 const workbook = XLSX.readFile(originalName);
-exportCSV('english', workbook);
-exportCSV('chinese', workbook);
+main('english', workbook);
+main('chinese', workbook);
