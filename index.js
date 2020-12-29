@@ -172,7 +172,7 @@ const getRowsMissing = (type, data) => {
  * @desc Export rows with missing info to separate excel files
  * @param {string} type Within 'product images', 'description images', 'english description', 'chinese description'
  * @param {array} data worksheet
- * @return {array} rows without certain info (empty cell)
+ * @return {undefined}
  */
 const exportMissing = (type, data) => {
     if (!Object.keys(missing).includes(type)) {
@@ -206,8 +206,6 @@ const exportMissing = (type, data) => {
         console.log(`Successfully export 'missing ${type}.xlsx' to path: ./missing/`);
     } catch (e) {
         console.error(e);
-    } finally {
-        return rows;
     }
 };
 
@@ -361,17 +359,9 @@ const main = (lang, wb) => {
     // Export rows with missing info according to the config
     const types = Object.keys(missing);
     const currentMissing = lang === 'english' ? types.slice(0, 3) : [types[3]];
-    // const currentConfigs = Object.fromEntries(lang === 'english' ? Object.entries(configs).slice())
-    // for (let i = 0; i < 3)
     for (let type of currentMissing) {
         exportMissing(type, data);
     }
-
-    // Remove rows from being exported according to the config
-    // if (!uploadNoProdImg) {
-    //     deleteRow(data, row);
-    // }
-
 
 
     // Add property 't' to each cell (key)
