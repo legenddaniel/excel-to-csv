@@ -383,3 +383,13 @@ const main = (lang, wb) => {
 const workbook = XLSX.readFile(originalName);
 main('english', workbook);
 main('chinese', workbook);
+
+/**
+ * 1. original = original.sheet_to_json({header: 1}): [['Name, Sub Dept Name', '一级分类', ...], [...], ...]
+ * 2. data = [['id', 'type', 'name', ...]]
+ * 3. datus = [[1, 'simple', original[1][0], ...], [2, 'simple', original[2][0]], [...], ...]
+ * 4. newData = [...data, ...datus]
+ * 5. get and export missing
+ * 6. push the result from export missing in a set, get the rows and sort
+ * 7. delete rows, minus 1 after each delete
+ */
